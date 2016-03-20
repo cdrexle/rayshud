@@ -18,30 +18,54 @@ Scheme
 	//////////////////////// COLORS ///////////////////////////
 	Colors
 	{	
+
+		//
+		//#################
+		//#SMESIHUD COLORS#
+		//#################
+		//
+
+		//Damage Colors
+			"DamageFloating"	"234 234 234 255"
+			"DamageStatic"		"234 234 234 255"
+
+		//Health Colors
+			"BuffedColor"		"0 255 170 255"
+			"LowColor"			"229 71 119 255"
+			"LowColorFlash"		"229 71 119 255"
+		
+		//Ubercharge
+			"FullUber"			"0 255 255 255"
+			"FullUberFlash"		"242 0 255 255"
+		
+		//Misc
+			"MainColor255"		"229 71 119 255"
+
+		//
 	
 		"Tutorial Color"	"0 255 0 128"
 	
 		//rayshud colors
 	
-		"Ammo In Clip"							"48 255 48 255"
-		"Ammo In Reserve"						"72 255 255 255"
-		"Ammo In Clip Low"						"255 42 130 255"
-		"Ammo In Reserve Low"					"255 128 28 255"
+		"Ammo In Clip"							"235 226 202 255"
+		"Ammo In Reserve"						"235 226 202 255"
+		"Ammo In Clip Low"						"229 71 119 255"
+		"Ammo In Reserve Low"					"229 71 119 255"
 		
 		//refers to watching stvs/killcam shots
 		"Spec Health Normal"					"235 226 202 255"
-		"Spec Health Buff"						"48 255 48 255"			
-		"Spec Health Hurt"						"255 153 0 255"
+		"Spec Health Buff"						"0 255 170 255"			
+		"Spec Health Hurt"						"229 71 119 255"
 		
 		//alternate colors for flashing values
 		"Alternate Spec Health Normal"						"235 226 202 255"
-		"Alternate Spec Health Buff"						"48 255 48 255"			
-		"Alternate Spec Health Hurt"						"255 153 0 255"
+		"Alternate Spec Health Buff"						"0 255 170 255"			
+		"Alternate Spec Health Hurt"						"229 71 119 255"
 		
 		//refers to player health/targetids
 		"Health Normal"							"235 226 202 255"
-		"Health Buff"							"48 255 48 255"
-		"Health Hurt"							"255 153 0 255"
+		"Health Buff"							"235 226 202 255"
+		"Health Hurt"							"235 226 202 255"
 		
 		//alternate colors for flashing values
 		"Alternate Health Normal"						"235 226 202 255"
@@ -53,20 +77,22 @@ Scheme
 		//solid color uber disabled by default; to enable, uncomment lines in hudanimations_tf.txt
 		"Solid Color Uber"						"255 50 255 255"
 		
-		"Flashing Uber Color1"					"255 165 0 255"
-		"Flashing Uber Color2"					"255 69 0 255"
+		//"Flashing Uber Color1"					"255 165 0 255"
+		//"Flashing Uber Color2"					"255 69 0 255"
+		"Flashing Uber Color1"					"0 255 255 255"
+		"Flashing Uber Color2"					"242 0 255 255"
 		//"Ubercharge Amount"						"48 255 48 255" // disabled temporarily; currently controlled by ammo in clip color
 	
-		"Heal Numbers"							"48 255 48 255"
-		"Damage Numbers"						"72 255 255 255"
+		"Heal Numbers"							"234 234 234 255"
+		"Damage Numbers"						"234 234 234 255"
 		
 		//'Last DamageHeal Info' refers to the number that appears above hp
-		"Last DamageHeal Info"					"72 255 255 255"
+		"Last DamageHeal Info"					"234 234 234 255"
 		
 		//Menu/Color scheme colors
 		"TransparentPanelBG"		"25 25 25 128"
-		"Base Color"				"15 255 255 255"
-		"Button Color"				"72 255 255 255"	
+		"Base Color"				"229 71 119 255"
+		"Button Color"				"229 71 119 255"	
 		
 		"Inactive Tab"				"15 100 100 255"	
 		
@@ -85,24 +111,24 @@ Scheme
 	
 		//Rainbow Uber Colors
 		
-			"ColorRed"						"255 0 0 255"
-			"ColorVermillion"						"255 64 0 255"
-			"ColorOrange"					"255 128 0 255"
-			"ColorYellow"					"255 255 0 255"
-			"ColorLime"						"128 255 0 255"
-			"ColorGreen"					"0 255 0 255"
-			"ColorTeal"						"0 255 128 255"
-			"ColorCyan"						"0 255 255 255"
-			"ColorAqua"						"0 128 255 255"
-			"ColorBlue"						"0 0 255 255"
-			"ColorPurple"					"128 0 255 255"
-			"ColorMagenta"					"255 0 255 255"
-			"ColorRuby"						"255 0 128 255"
-			"ColorBlack"					"0 0 0 255"
-			"ColorGreyDark"					"64 64 64 255"
-			"ColorGreyMid"					"128 128 128 255"
-			"ColorGreyLight"				"192 192 192 255"
-			"ColorWhite"					"255 255 255 255"
+		// 	"ColorRed"						"255 0 0 255"
+		// 	"ColorVermillion"						"255 64 0 255"
+		// 	"ColorOrange"					"255 128 0 255"
+		// 	"ColorYellow"					"255 255 0 255"
+		// 	"ColorLime"						"128 255 0 255"
+		// 	"ColorGreen"					"0 255 0 255"
+		// 	"ColorTeal"						"0 255 128 255"
+		// 	"ColorCyan"						"0 255 255 255"
+		// 	"ColorAqua"						"0 128 255 255"
+		// 	"ColorBlue"						"0 0 255 255"
+		// 	"ColorPurple"					"128 0 255 255"
+		// 	"ColorMagenta"					"255 0 255 255"
+		// 	"ColorRuby"						"255 0 128 255"
+		// 	"ColorBlack"					"0 0 0 255"
+		// 	"ColorGreyDark"					"64 64 64 255"
+		// 	"ColorGreyMid"					"128 128 128 255"
+		// 	"ColorGreyLight"				"192 192 192 255"
+		// 	"ColorWhite"					"255 255 255 255"
 			
 		//end rayshud colors
 			
@@ -194,11 +220,11 @@ Scheme
 		"DisguiseMenuIconRed"	"192 56 63 255"
 		"DisguiseMenuIconBlue"	"92 128 166 255"
 
- 		"MatchmakingDialogTitleColor"			"15 255 255 255"
+ 		"MatchmakingDialogTitleColor"			"229 71 119 255"
  		"MatchmakingMenuItemBackground"			"46 43 42 255"
- 		"MatchmakingMenuItemBackgroundActive"	"15 255 255 255"	
-		"MatchmakingMenuItemTitleColor"			"15 255 255 255"
-		"MatchmakingMenuItemDescriptionColor"	"15 255 255 255"
+ 		"MatchmakingMenuItemBackgroundActive"	"229 71 119 255"	
+		"MatchmakingMenuItemTitleColor"			"229 71 119 255"
+		"MatchmakingMenuItemDescriptionColor"	"229 71 119 255"
 		
 		"HTMLBackground"						"95 92 101 255"
 		
