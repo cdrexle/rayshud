@@ -64,8 +64,8 @@ Scheme
 		
 		//refers to player health/targetids
 		"Health Normal"							"235 226 202 255"
-		"Health Buff"							"235 226 202 255"
-		"Health Hurt"							"235 226 202 255"
+		"Health Buff"							"0 255 170 255"
+		"Health Hurt"							"229 71 119 255"
 		
 		//alternate colors for flashing values
 		"Alternate Health Normal"						"235 226 202 255"
