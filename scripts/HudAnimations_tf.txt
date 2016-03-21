@@ -244,6 +244,7 @@ event HudHealthDyingPulse
 	Animate PlayerStatusHealthValueSpectator FgColor "Spec Health Hurt" Accel 0.0 0.0
 	Animate PlayerStatusHealthValueFreezePanel FgColor "Spec Health Hurt" Accel 0.0 0.0
 	Animate PlayerStatusHealthValueShadow FgColor "White" Accel 0.0 0.0
+	Animate PlayerStatusHealthValueBackground FgColor "White" Accel 0.0 0.0
 	
 	RunEvent HudHealthDyingPulseLoop	0.4
 }
@@ -263,6 +264,7 @@ event HudHealthDyingPulseStop
 	Animate PlayerStatusHealthValueSpectator FgColor "Spec Health Normal" Accel 0.0 0.0
 	Animate PlayerStatusHealthValueFreezePanel FgColor "Spec Health Normal" Accel 0.0 0.0
 	Animate PlayerStatusHealthValueShadow FgColor "TransparentBlack" Accel 0.0 0.0
+	Animate PlayerStatusHealthValueBackground FgColor "0 0 0 255" Accel 0.0 0.0
 }
 
 //===========================================

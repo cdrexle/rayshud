@@ -80,7 +80,8 @@ Scheme
 		//"Flashing Uber Color1"					"255 165 0 255"
 		//"Flashing Uber Color2"					"255 69 0 255"
 		"Flashing Uber Color1"					"0 255 255 255"
-		"Flashing Uber Color2"					"242 0 255 255"
+		"Flashing Uber Color2"					"0 255 255 255"
+		//"Flashing Uber Color2"					"242 0 255 255"
 		//"Ubercharge Amount"						"48 255 48 255" // disabled temporarily; currently controlled by ammo in clip color
 	
 		"Heal Numbers"							"234 234 234 255"
@@ -3740,27 +3741,27 @@ Scheme
 			{
 				"1"
 				{
-					"color" "15 255 255 255"
+					"color" "Base Color"
 					"offset" "0 1"
 				}
 				"2"
 				{
-					"color" "15 255 255 255"
+					"color" "Base Color"
 					"offset" "1 1"
 				}
 				"3"
 				{
-					"color" "15 255 255 255"
+					"color" "Base Color"
 					"offset" "2 1"
 				}
 				"4"
 				{
-					"color" "15 255 255 255"
+					"color" "Base Color"
 					"offset" "3 1"
 				}
 				"5"
 				{
-					"color" "15 255 255 255"
+					"color" "Base Color"
 					"offset" "4 1"
 				}
 			}
@@ -3769,27 +3770,27 @@ Scheme
 			{
 				"1"
 				{
-					"color" "15 255 255 255"
+					"color" "Base Color"
 					"offset" "0 1"
 				}
 				"2"
 				{
-					"color" "15 255 255 255"
+					"color" "Base Color"
 					"offset" "1 1"
 				}
 				"3"
 				{
-					"color" "15 255 255 255"
+					"color" "Base Color"
 					"offset" "2 1"
 				}
 				"4"
 				{
-					"color" "15 255 255 255"
+					"color" "Base Color"
 					"offset" "3 1"
 				}
 				"5"
 				{
-					"color" "15 255 255 255"
+					"color" "Base Color"
 					"offset" "4 1"
 				}
 			}
@@ -3798,27 +3799,27 @@ Scheme
 			{
 				"1"
 				{
-					"color" "15 255 255 255"
+					"color" "Base Color"
 					"offset" "0 1"
 				}
 				"2"
 				{
-					"color" "15 255 255 255"
+					"color" "Base Color"
 					"offset" "1 1"
 				}
 				"3"
 				{
-					"color" "15 255 255 255"
+					"color" "Base Color"
 					"offset" "2 1"
 				}
 				"4"
 				{
-					"color" "15 255 255 255"
+					"color" "Base Color"
 					"offset" "3 1"
 				}
 				"5"
 				{
-					"color" "15 255 255 255"
+					"color" "Base Color"
 					"offset" "4 1"
 				}
 			}
@@ -3830,27 +3831,27 @@ Scheme
 			{
 				"1"
 				{
-					"color" "15 100 100 255"
+					"color" "Base Color"
 					"offset" "0 1"
 				}
 				"2"
 				{
-					"color" "15 100 100 255"
+					"color" "Base Color"
 					"offset" "1 1"
 				}
 				"3"
 				{
-					"color" "15 100 100 255"
+					"color" "Base Color"
 					"offset" "2 1"
 				}
 				"4"
 				{
-					"color" "15 100 100 255"
+					"color" "Base Color"
 					"offset" "3 1"
 				}
 				"5"
 				{
-					"color" "15 100 100 255"
+					"color" "Base Color"
 					"offset" "4 1"
 				}
 			}
@@ -3859,27 +3860,27 @@ Scheme
 			{
 				"1"
 				{
-					"color" "15 100 100 255"
+					"color" "Base Color"
 					"offset" "0 1"
 				}
 				"2"
 				{
-					"color" "15 100 100 255"
+					"color" "Base Color"
 					"offset" "1 1"
 				}
 				"3"
 				{
-					"color" "15 100 100 255"
+					"color" "Base Color"
 					"offset" "2 1"
 				}
 				"4"
 				{
-					"color" "15 100 100 255"
+					"color" "Base Color"
 					"offset" "3 1"
 				}
 				"5"
 				{
-					"color" "15 100 100 255"
+					"color" "Base Color"
 					"offset" "4 1"
 				}
 			}
@@ -3888,27 +3889,27 @@ Scheme
 			{
 				"1"
 				{
-					"color" "15 100 100 255"
+					"color" "Base Color"
 					"offset" "0 1"
 				}
 				"2"
 				{
-					"color" "15 100 100 255"
+					"color" "Base Color"
 					"offset" "1 1"
 				}
 				"3"
 				{
-					"color" "15 100 100 255"
+					"color" "Base Color"
 					"offset" "2 1"
 				}
 				"4"
 				{
-					"color" "15 100 100 255"
+					"color" "Base Color"
 					"offset" "3 1"
 				}
 				"5"
 				{
-					"color" "15 100 100 255"
+					"color" "Base Color"
 					"offset" "4 1"
 				}
 			}
@@ -3920,7 +3921,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "15 255 255 255"
+					"color" "Base Color"
 					"offset" "0 4"
 				}
 			}
@@ -3929,7 +3930,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "15 255 255 255"
+					"color" "Base Color"
 					"offset" "0 0"
 				}
 			}
@@ -3938,7 +3939,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "15 255 255 255"
+					"color" "Base Color"
 					"offset" "0 0"
 				}
 			}
@@ -3947,7 +3948,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "15 255 255 255"
+					"color" "Base Color"
 					"offset" "0 0"
 				}
 			}
@@ -3959,17 +3960,17 @@ Scheme
 			{
 				"1"
 				{
-					"color" "15 255 255 255"
+					"color" "Base Color"
 					"offset" "0 0"
 				}
 				"2"
 				{
-					"color" "15 255 255 255"
+					"color" "Base Color"
 					"offset" "1 0"
 				}
 				"3"
 				{
-					"color" "15 255 255 255"
+					"color" "Base Color"
 					"offset" "2 0"
 				}
 			}
@@ -3978,17 +3979,17 @@ Scheme
 			{
 				"1"
 				{
-					"color" "15 255 255 255"
+					"color" "Base Color"
 					"offset" "0 0"
 				}
 				"2"
 				{
-					"color" "15 255 255 255"
+					"color" "Base Color"
 					"offset" "1 0"
 				}
 				"3"
 				{
-					"color" "15 255 255 255"
+					"color" "Base Color"
 					"offset" "2 0"
 				}
 			}
@@ -3997,17 +3998,17 @@ Scheme
 			{
 				"1"
 				{
-					"color" "15 255 255 255"
+					"color" "Base Color"
 					"offset" "0 0"
 				}
 				"2"
 				{
-					"color" "15 255 255 255"
+					"color" "Base Color"
 					"offset" "1 0"
 				}
 				"3"
 				{
-					"color" "15 255 255 255"
+					"color" "Base Color"
 					"offset" "2 0"
 				}
 			}
@@ -4016,17 +4017,17 @@ Scheme
 			{
 				"1"
 				{
-					"color" "15 255 255 255"
+					"color" "Base Color"
 					"offset" "0 0"
 				}
 				"2"
 				{
-					"color" "15 255 255 255"
+					"color" "Base Color"
 					"offset" "1 0"
 				}
 				"3"
 				{
-					"color" "15 255 255 255"
+					"color" "Base Color"
 					"offset" "2 0"
 				}
 			}
